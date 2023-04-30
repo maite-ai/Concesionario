@@ -22,5 +22,8 @@ class Auto:
 		motor = True
 
 	def show(self):
-		print(f"Nuevo auto ingresado \nMarca: {self.marca}\n  modelo: {self.modelo}\n Generación: {self.generacion}\n Serie: {self.serie}\n Cilindrada: {self.cilindrada}\n Matrícula: {self.matricula}\n N° de chasis: {self.nro_chasis}\n Equipamiento: {self.equipamiento}")
+		print(f"Nuevo auto ingresado \nMarca: {self.marca}\nModelo: {self.modelo}\nGeneración: {self.generacion}\nSerie: {self.serie}\nCilindrada: {self.cilindrada}\nMatrícula: {self.matricula}\nN° de chasis: {self.nro_chasis}\nEquipamiento: {self.equipamiento}")
 	
+auto1 = Auto("Honda", "City", "GX 2014", "Sedán 4 puertas", 1.6, "AF 566 IA", "472254152574", "Básico")
+
+auto1.show()
